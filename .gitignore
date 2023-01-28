@@ -1,0 +1,3 @@
+migrations
+*.lock
+db.sqlite3
