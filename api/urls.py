@@ -1,7 +1,8 @@
 from django.urls import path
-from rest_framework.urlpatterns import format_suffix_patterns
-from api import views
+
+from .views import Hello
 
 urlpatterns = [
-    path('hello/',views.HelloAPI.as_view())
+    path('hello', Hello.as_view({'post': 'get_msg1'})),
+    path('hello', Hello.as_view({'get': 'get_msg2'})),
 ]

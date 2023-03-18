@@ -5,8 +5,15 @@ name = "pypi"
 
 [packages]
 django = "*"
+django-restframework = "*"
+openai = "*"
 djangorestframework = "*"
+django-cors-headers = "*"
+pipfile = "*"
+python-decouple = "*"
 django-rest-knox = "*"
+google-api-python-client = "*"
+google-auth = "*"
 
 [dev-packages]
 
